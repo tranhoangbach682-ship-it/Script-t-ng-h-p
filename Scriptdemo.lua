@@ -33,6 +33,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "FNAF Eternal Nights"})
      local Tab2o = MakeTab({Name = "Blade Ball"})
      local Tab3o = MakeTab({Name = "Script thập cẩm"})
+     local Tab4o = MakeTab({Name = "Dead Rails"})
+     local Tab5o = MakeTab({Name = "Game bắn súng"})
      
      
 ------- BUTTON
@@ -59,16 +61,30 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
   
-    AddButton(Tab3o, {
+    AddButton(Tab4o, {
      Name = "Script Dead Rails",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/XUANVNPRO/XuanVPHUB/refs/heads/main/XuanVPPHUB.lua.txt"))()
   end
   })
   
-    AddButton(Tab3o, {
+    AddButton(Tab5o, {
      Name = "Aimbot",
     Callback = function()
 	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Aimbot-Script-By-Klaus-63365"))()
+  end
+  })
+  
+    AddButton(Tab4o, {
+     Name = "RINGTA Script",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/erewe23/deadrailsring.github.io/refs/heads/main/ringta.lua"))()
+  end
+  })
+  
+    AddButton(Tab3o, {
+     Name = "Ghost Hub",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
   end
   })
