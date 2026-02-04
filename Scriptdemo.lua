@@ -88,3 +88,31 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
   end
   })
+  
+    AddButton(Tab4o, {
+     Name = "Farm Bonds",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/loader.lua"))()
+  end
+  })
+  
+    AddButton(Tab3o, {
+     Name = "Infinite Yield",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end
+  })
+  
+    AddButton(Tab3o, {
+     Name = "Nameless Admin",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Nameless-admin-reworked-75477"))()
+  end
+  })
+  
+    AddButton(Tab5o, {
+     Name = "Slient Aim v.v",
+    Callback = function()
+	  loadstring(game:HttpGet('https://api.rubis.app/v2/scrap/aAuaw7qgk0MCPem5/raw'))()
+  end
+  })
