@@ -6,11 +6,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Youtube: @TandatYT"
          },
         Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "Key System",
-        Description = "",
+        Description = "vào Link rồi làm theo Link Hướng Dẫn, bạn không thể Bypass.",
         KeyLink = "",
-        Keys = {"1234"},
+        Keys = {"Đạt 5B"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
